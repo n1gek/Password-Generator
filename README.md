@@ -1,12 +1,54 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, customizable password generator built with **React**, **Vite**, and **Tailwind CSS**. This app allows users to generate secure passwords with adjustable length and character options. Features one-click copying and responsive design.
 
-Currently, two official plugins are available:
+!App Screenshot ![password-app](https://github.com/user-attachments/assets/c4850d38-d016-45c9-8c15-a7bd6fab1fed)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎚️ Adjustable password length (8-64 characters)
+- 🔢 Toggle numbers inclusion
+- 🔣 Toggle special characters
+- 📋 One-click copy to clipboard
+- 📱 Fully responsive design
+- 💨 Super fast with Vite
+- 🎨 Beautiful UI with Tailwind CSS
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or later recommended)
+- npm (v9+) or yarn
+
+### Installation
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/password-generator.git
+   cd password-generator```
+2. **Install dependencies**
+   ```
+   npm install or yarn install``
+3. **Run the development server**
+   ```
+   npm install
+   # or
+   yarn install```
+4. **Open in Browser**
+   ```
+   Visit http://localhost:5173```
+
+🧩 Tech Stack
+React - Frontend library
+Vite - Build tool
+Tailwind CSS - Styling
+Clipboard API - Copy functionality
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details. 
+
+🙏 Acknowledgments
+Vite team for the excellent build tool
+Tailwind CSS for the utility-first framework
+React community for awesome components
